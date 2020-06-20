@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+
+    body{
+        background-color: #FF4500;
+    }
+
+</style>
+<body>
+
+<div class="container">
+    <h1 align="center">Training Courses</h1>
+    <div class="row">
+        <div class="col-sm-6">
+    <div class="card" style="width:400px">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/07/15/08/18/web-845809_960_720.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <h4 class="card-title">Web Development</h4>
+            <p class="card-text">We will provide in creating interactive and responsive websites in this course</p>
+            <a href="#" class="btn btn-primary">See Modules</a>
+        </div>
+    </div>
+        </div>
+        <div class="col-sm-6">
+    <div class="card" style="width:400px">
+        <img class="card-img-bottom" src="https://cdn.pixabay.com/photo/2013/07/12/16/50/cafe-151346_960_720.png" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <h4 class="card-title">Java Development</h4>
+            <p class="card-text">We will provide basic of Java in this course</p>
+            <a href="#" class="btn btn-primary">See Module</a>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+<br><br>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Terms and conditions
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Terms and condition</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                These are the terms and conditions to enroll in the course
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

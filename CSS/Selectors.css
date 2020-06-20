@@ -1,0 +1,20 @@
+        body {
+        background-color: Gray;
+              }
+
+        .website {
+
+        background-color: #FF4500;
+        text-align: left;
+
+        }
+        .btn {
+         font-size: 50px;
+        }
+
+        .text {
+        font-size:36px;
+        font-weight:bold;
+        color:Black;
+        padding-bottom:10px;
+         }
